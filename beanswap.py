@@ -81,7 +81,9 @@ Email: {row['email_address']}
 ----
 Hi {row['username']},
 
-Thanks for bearing with me on this. Busy time of year! I've randomly assigned you the {f"{row['how_many_people']} " if row['how_many_people']>1 else ''}following match{'es' if row['how_many_people']>1 else ''}:
+Thanks for bearing with me on this. Busy time of year! I've randomly assigned you the \
+{f"{row['how_many_people']} " if row['how_many_people']>1 else ''}following \
+match{'es' if row['how_many_people']>1 else ''}:
 
         """
         for _, match in matches.iterrows():
@@ -92,9 +94,12 @@ Bean preferences: {match['bean_preferences']}
 
             """
         message += """
-I suggest sending via USPS first-class in a padded mailer via pirateship.com; I think I paid less than $4 to send 3 oz of beans across the country in 3 days recently. Don't forget to include info about the beans!
+I suggest sending via USPS first-class in a padded mailer via pirateship.com; I think I paid less \
+than $4 to send 3 oz of beans across the country in 3 days recently. Don't forget to include info \
+about the beans!
 
-Let me (PatrickC) know if you have any questions. Post in or refer back to the forum post as needed! https://decentforum.com/t/us-secret-krampus-freezer-swap-give-a-bean-get-a-bean/3541
+Let me (PatrickC) know if you have any questions. Post in or refer back to the forum post as \
+needed! https://decentforum.com/t/us-secret-krampus-freezer-swap-give-a-bean-get-a-bean/3541
 
 Please send by January 15, 2022. Feel free to post in the thread when/what you send/receive.
 
